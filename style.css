@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+h1 {
+    color: blue;
+}
+
+body {
+    background-color: #0d0d0d;
+}
+
+.header_logo {
+    width: 100%;
+    height: auto;
+    background-color: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo img {
+    height: 100px;
+}
+
+.header_infos {
+    background-image: url(https://i.imgur.com/SoJHcWI.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding-left: 150px;
+    text-shadow: 0.1em 0.2em 0.2em #0d0d0d;
+}
+
+.header_infos h1 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header_infos p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    max-width: 68%;
+}
+
+main {
+    padding-left: 150px;
+}
+
+.main_nav {
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_nav h3 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+.main_nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main_nav ul li {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid; color: #ffffff; 
+    border-radius: 100px;
+}
+
+.main_nav ul li:hover {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main_nav ul li:active {
+    background-color: #800000;
+    transition: 0ms;
+}
+
+.main_vitrine {
+    width: 60%;
+    height: auto;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-shadow: 0.1em 0.2em 0.2em #0d0d0d;
+}
+
+
+.main_card1 {
+    background-image: url(https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2022/07/Critica-STRANGER-THINGS-4-PARTE-1-4.gif);
+    background-size:100%;
+    width: 110%;
+    height: auto;
+    height: 500px;
+    
+}
+
+.main_card2 {
+    background-image: url(https://i.pinimg.com/originals/33/c3/cc/33c3cc192e4963ae65bd36763dcfe092.gif);
+    background-size: cover;
+    width: 110%;
+    height: auto;
+    height: 500px;
+}
+
+.main_card3 {
+    background-image: url(https://media1.giphy.com/media/3o7qj3mwYZaGck0NoI/giphy.gif?cid=790b7611676882bb4aaefbc6ff0c477659ed4a9cfee05da0&rid=giphy.gif&ct=g);
+    background-size: cover;
+    width: 110%;
+    height: auto;
+    height: 500px;
+}
+
+.main_card4 {
+    background-image: url(https://78.media.tumblr.com/ef5f6b7aba4923e7fcaf57226a9a719b/tumblr_pe8sn4RtYB1ut1d6co1_540.gif);
+    background-size: cover;
+    width: 110%;
+    height: auto;
+    height: 500px;
+}
+
+
+.main_card_top {
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.main_card_top h2 {
+    font-size: 40px;
+    padding-left: 23px;
+}
+.main_card_top span {
+    font-size: 28px;
+    padding-left: 23px;
+}
+
+.main_card_bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction:inherit;
+    align-items: flex-end;
+}
+.main_card_bottom p {
+    font-size: 20px;
+    max-width: 75%;
+    margin-bottom: 50px;
+    padding-left: 23px;
+}
+.main_card_bottom span {
+    font-size: 28px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid; color: #ffffff; 
+    border-radius: 100px;
+    box-shadow: 0.1em 0.2em 0.2em #0d0d0d ;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #0d0d0d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.main_card_bottom span:hover {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main_card_bottom span:active {
+    background-color: #800000;
+    transition: 0ms;
+}
+
+footer {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #800000;
+    width: 100%;
+    height: 30px;
+    align-content: center;
+}
